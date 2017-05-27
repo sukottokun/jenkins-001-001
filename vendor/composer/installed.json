@@ -3707,81 +3707,6 @@
         "description": "implementation of xdg base directory specification for php"
     },
     {
-        "name": "psy/psysh",
-        "version": "v0.8.3",
-        "version_normalized": "0.8.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/bobthecow/psysh.git",
-            "reference": "1dd4bbbc64d71e7ec075ffe82b42d9e096dc8d5e"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/bobthecow/psysh/zipball/1dd4bbbc64d71e7ec075ffe82b42d9e096dc8d5e",
-            "reference": "1dd4bbbc64d71e7ec075ffe82b42d9e096dc8d5e",
-            "shasum": ""
-        },
-        "require": {
-            "dnoegel/php-xdg-base-dir": "0.1",
-            "jakub-onderka/php-console-highlighter": "0.3.*",
-            "nikic/php-parser": "~1.3|~2.0|~3.0",
-            "php": ">=5.3.9",
-            "symfony/console": "~2.3.10|^2.4.2|~3.0",
-            "symfony/var-dumper": "~2.7|~3.0"
-        },
-        "require-dev": {
-            "friendsofphp/php-cs-fixer": "~1.11",
-            "hoa/console": "~3.16|~1.14",
-            "phpunit/phpunit": "~4.4|~5.0",
-            "symfony/finder": "~2.1|~3.0"
-        },
-        "suggest": {
-            "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
-            "ext-pdo-sqlite": "The doc command requires SQLite to work.",
-            "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
-            "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history.",
-            "hoa/console": "A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit."
-        },
-        "time": "2017-03-19T21:40:44+00:00",
-        "bin": [
-            "bin/psysh"
-        ],
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-develop": "0.9.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "src/Psy/functions.php"
-            ],
-            "psr-4": {
-                "Psy\\": "src/Psy/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Justin Hileman",
-                "email": "justin@justinhileman.info",
-                "homepage": "http://justinhileman.com"
-            }
-        ],
-        "description": "An interactive shell for modern PHP.",
-        "homepage": "http://psysh.org",
-        "keywords": [
-            "REPL",
-            "console",
-            "interactive",
-            "shell"
-        ]
-    },
-    {
         "name": "gabordemooij/redbean",
         "version": "v4.3.4",
         "version_normalized": "4.3.4.0",
@@ -4114,62 +4039,6 @@
         "description": "Automatic BASH completion for Symfony Console Component based applications."
     },
     {
-        "name": "drupal/console-en",
-        "version": "1.0.0-rc19",
-        "version_normalized": "1.0.0.0-RC19",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/hechoendrupal/drupal-console-en.git",
-            "reference": "df4da4011500496fc9c1d611cd36343006079915"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/hechoendrupal/drupal-console-en/zipball/df4da4011500496fc9c1d611cd36343006079915",
-            "reference": "df4da4011500496fc9c1d611cd36343006079915",
-            "shasum": ""
-        },
-        "time": "2017-05-05T21:51:49+00:00",
-        "type": "drupal-console-language",
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "David Flores",
-                "email": "dmousex@gmail.com",
-                "homepage": "http://dmouse.net"
-            },
-            {
-                "name": "Jesus Manuel Olivas",
-                "email": "jesus.olivas@gmail.com",
-                "homepage": "http://jmolivas.com"
-            },
-            {
-                "name": "Drupal Console Contributors",
-                "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
-            },
-            {
-                "name": "Eduardo Garcia",
-                "email": "enzo@enzolutions.com",
-                "homepage": "http://enzolutions.com/"
-            },
-            {
-                "name": "Omar Aguirre",
-                "email": "omersguchigu@gmail.com"
-            }
-        ],
-        "description": "Drupal Console English Language",
-        "homepage": "http://drupalconsole.com/",
-        "keywords": [
-            "console",
-            "development",
-            "drupal",
-            "symfony"
-        ]
-    },
-    {
         "name": "dflydev/dot-access-configuration",
         "version": "v1.0.1",
         "version_normalized": "1.0.1.0",
@@ -4229,88 +4098,6 @@
         "keywords": [
             "config",
             "configuration"
-        ]
-    },
-    {
-        "name": "drupal/console-core",
-        "version": "1.0.0-rc19",
-        "version_normalized": "1.0.0.0-RC19",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/hechoendrupal/drupal-console-core.git",
-            "reference": "c5be69f660727b38ce6c904dcb0e061e03de7aeb"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/hechoendrupal/drupal-console-core/zipball/c5be69f660727b38ce6c904dcb0e061e03de7aeb",
-            "reference": "c5be69f660727b38ce6c904dcb0e061e03de7aeb",
-            "shasum": ""
-        },
-        "require": {
-            "dflydev/dot-access-configuration": "1.0.1",
-            "drupal/console-en": "1.0.0-rc19",
-            "php": "^5.5.9 || ^7.0",
-            "stecman/symfony-console-completion": "~0.7",
-            "symfony/config": ">=2.7 <3.0",
-            "symfony/console": ">=2.7 <3.0",
-            "symfony/debug": ">=2.6 <3.0",
-            "symfony/dependency-injection": ">=2.7 <3.0",
-            "symfony/event-dispatcher": ">=2.7 <3.0",
-            "symfony/filesystem": ">=2.7 <3.0",
-            "symfony/finder": ">=2.7 <3.0",
-            "symfony/process": ">=2.7 <3.0",
-            "symfony/translation": ">=2.7 <3.0",
-            "symfony/yaml": ">=2.7 <3.0",
-            "twig/twig": "^1.23.1",
-            "webflo/drupal-finder": "0.*"
-        },
-        "time": "2017-05-08T16:08:29+00:00",
-        "type": "project",
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "src/functions.php"
-            ],
-            "psr-4": {
-                "Drupal\\Console\\Core\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "David Flores",
-                "email": "dmousex@gmail.com",
-                "homepage": "http://dmouse.net"
-            },
-            {
-                "name": "Jesus Manuel Olivas",
-                "email": "jesus.olivas@gmail.com",
-                "homepage": "http://jmolivas.com"
-            },
-            {
-                "name": "Drupal Console Contributors",
-                "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
-            },
-            {
-                "name": "Eduardo Garcia",
-                "email": "enzo@enzolutions.com",
-                "homepage": "http://enzolutions.com/"
-            },
-            {
-                "name": "Omar Aguirre",
-                "email": "omersguchigu@gmail.com"
-            }
-        ],
-        "description": "Drupal Console Core",
-        "homepage": "http://drupalconsole.com/",
-        "keywords": [
-            "console",
-            "development",
-            "drupal",
-            "symfony"
         ]
     },
     {
@@ -4377,86 +4164,6 @@
             "compression",
             "tar",
             "zip"
-        ]
-    },
-    {
-        "name": "drupal/console",
-        "version": "1.0.0-rc19",
-        "version_normalized": "1.0.0.0-RC19",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/hechoendrupal/drupal-console.git",
-            "reference": "98ad4c0362146689f3d4f895394ef35a4f95443d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/hechoendrupal/drupal-console/zipball/98ad4c0362146689f3d4f895394ef35a4f95443d",
-            "reference": "98ad4c0362146689f3d4f895394ef35a4f95443d",
-            "shasum": ""
-        },
-        "require": {
-            "alchemy/zippy": "0.4.3",
-            "composer/installers": "~1.0",
-            "doctrine/annotations": "1.2.*",
-            "doctrine/collections": "~1.3",
-            "drupal/console-core": "1.0.0-rc19",
-            "drupal/console-extend-plugin": "~0",
-            "gabordemooij/redbean": "~4.3",
-            "guzzlehttp/guzzle": "~6.1",
-            "php": "^5.5.9 || ^7.0",
-            "psy/psysh": "0.6.* || ~0.8",
-            "symfony/css-selector": ">=2.7 <3.0",
-            "symfony/dom-crawler": ">=2.7 <3.3",
-            "symfony/expression-language": ">=2.7 <3.0",
-            "symfony/http-foundation": ">=2.7 <3.0"
-        },
-        "time": "2017-05-08T16:49:07+00:00",
-        "bin": [
-            "bin/drupal"
-        ],
-        "type": "project",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Drupal\\Console\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "authors": [
-            {
-                "name": "David Flores",
-                "email": "dmousex@gmail.com",
-                "homepage": "http://dmouse.net"
-            },
-            {
-                "name": "Jesus Manuel Olivas",
-                "email": "jesus.olivas@gmail.com",
-                "homepage": "http://jmolivas.com"
-            },
-            {
-                "name": "Drupal Console Contributors",
-                "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
-            },
-            {
-                "name": "Eduardo Garcia",
-                "email": "enzo@enzolutions.com",
-                "homepage": "http://enzolutions.com/"
-            },
-            {
-                "name": "Omar Aguirre",
-                "email": "omersguchigu@gmail.com"
-            }
-        ],
-        "description": "The Drupal CLI. A tool to generate boilerplate code, interact with and debug Drupal.",
-        "homepage": "http://drupalconsole.com/",
-        "keywords": [
-            "console",
-            "development",
-            "drupal",
-            "symfony"
         ]
     },
     {
@@ -4603,57 +4310,6 @@
             }
         ],
         "description": "A robust cross-platform utility for normalizing, comparing and modifying file paths."
-    },
-    {
-        "name": "phpdocumentor/reflection-docblock",
-        "version": "2.0.4",
-        "version_normalized": "2.0.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-            "reference": "d68dbdc53dc358a816f00b300704702b2eaff7b8"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/d68dbdc53dc358a816f00b300704702b2eaff7b8",
-            "reference": "d68dbdc53dc358a816f00b300704702b2eaff7b8",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "~4.0"
-        },
-        "suggest": {
-            "dflydev/markdown": "~1.0",
-            "erusev/parsedown": "~1.0"
-        },
-        "time": "2015-02-03T12:10:50+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.0.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "phpDocumentor": [
-                    "src/"
-                ]
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Mike van Riel",
-                "email": "mike.vanriel@naenius.com"
-            }
-        ]
     },
     {
         "name": "pear/console_table",
@@ -5725,90 +5381,6 @@
         ]
     },
     {
-        "name": "behat/behat",
-        "version": "v3.3.0",
-        "version_normalized": "3.3.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Behat/Behat.git",
-            "reference": "15a3a1857457eaa29cdf41564a5e421effb09526"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Behat/Behat/zipball/15a3a1857457eaa29cdf41564a5e421effb09526",
-            "reference": "15a3a1857457eaa29cdf41564a5e421effb09526",
-            "shasum": ""
-        },
-        "require": {
-            "behat/gherkin": "^4.4.4",
-            "behat/transliterator": "~1.0",
-            "container-interop/container-interop": "^1.1",
-            "ext-mbstring": "*",
-            "php": ">=5.3.3",
-            "symfony/class-loader": "~2.1||~3.0",
-            "symfony/config": "~2.3||~3.0",
-            "symfony/console": "~2.5||~3.0",
-            "symfony/dependency-injection": "~2.1||~3.0",
-            "symfony/event-dispatcher": "~2.1||~3.0",
-            "symfony/translation": "~2.3||~3.0",
-            "symfony/yaml": "~2.1||~3.0"
-        },
-        "require-dev": {
-            "herrera-io/box": "~1.6.1",
-            "phpunit/phpunit": "~4.5",
-            "symfony/process": "~2.5|~3.0"
-        },
-        "suggest": {
-            "behat/mink-extension": "for integration with Mink testing framework",
-            "behat/symfony2-extension": "for integration with Symfony2 web framework",
-            "behat/yii-extension": "for integration with Yii web framework"
-        },
-        "time": "2016-12-25T13:43:52+00:00",
-        "bin": [
-            "bin/behat"
-        ],
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.2.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Behat\\Behat": "src/",
-                "Behat\\Testwork": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Konstantin Kudryashov",
-                "email": "ever.zet@gmail.com",
-                "homepage": "http://everzet.com"
-            }
-        ],
-        "description": "Scenario-oriented BDD framework for PHP 5.3",
-        "homepage": "http://behat.org/",
-        "keywords": [
-            "Agile",
-            "BDD",
-            "ScenarioBDD",
-            "Scrum",
-            "StoryBDD",
-            "User story",
-            "business",
-            "development",
-            "documentation",
-            "examples",
-            "symfony",
-            "testing"
-        ]
-    },
-    {
         "name": "behat/mink-extension",
         "version": "v2.2",
         "version_normalized": "2.2.0.0",
@@ -5958,65 +5530,6 @@
             "Behat",
             "Drush",
             "testing"
-        ]
-    },
-    {
-        "name": "jcalderonzumba/gastonjs",
-        "version": "v1.1.0",
-        "version_normalized": "1.1.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/jcalderonzumba/gastonjs.git",
-            "reference": "4d7fe5f8a92f247bafa618189ea0fb60f82fb7ff"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/jcalderonzumba/gastonjs/zipball/4d7fe5f8a92f247bafa618189ea0fb60f82fb7ff",
-            "reference": "4d7fe5f8a92f247bafa618189ea0fb60f82fb7ff",
-            "shasum": ""
-        },
-        "require": {
-            "guzzlehttp/guzzle": "~5.0|~6.0",
-            "php": ">=5.4"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "~4.6",
-            "silex/silex": "~1.2",
-            "symfony/phpunit-bridge": "~2.7",
-            "symfony/process": "~2.1"
-        },
-        "time": "2016-11-10T11:26:43+00:00",
-        "type": "phantomjs-api",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.1.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Zumba\\GastonJS\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Juan Francisco Calderón Zumba",
-                "email": "juanfcz@gmail.com",
-                "homepage": "http://github.com/jcalderonzumba"
-            }
-        ],
-        "description": "PhantomJS API based server for webpage automation",
-        "homepage": "https://github.com/jcalderonzumba/gastonjs",
-        "keywords": [
-            "api",
-            "automation",
-            "browser",
-            "headless",
-            "phantomjs"
         ]
     },
     {
@@ -6466,60 +5979,6 @@
             "Xdebug",
             "environment",
             "hhvm"
-        ]
-    },
-    {
-        "name": "sebastian/diff",
-        "version": "1.4.1",
-        "version_normalized": "1.4.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/diff.git",
-            "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/13edfd8706462032c2f52b4b862974dd46b71c9e",
-            "reference": "13edfd8706462032c2f52b4b862974dd46b71c9e",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.3"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "~4.8"
-        },
-        "time": "2015-12-08T07:14:41+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "classmap": [
-                "src/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Kore Nordmann",
-                "email": "mail@kore-nordmann.de"
-            },
-            {
-                "name": "Sebastian Bergmann",
-                "email": "sebastian@phpunit.de"
-            }
-        ],
-        "description": "Diff implementation",
-        "homepage": "https://github.com/sebastianbergmann/diff",
-        "keywords": [
-            "diff"
         ]
     },
     {
@@ -7212,7 +6671,7 @@
         "dist": {
             "type": "zip",
             "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.0.zip",
-            "reference": null,
+            "reference": "8.x-1.0",
             "shasum": "4c82a5689a18421c8c73fcc8be7b333bb21ae02a"
         },
         "require": {
@@ -7258,5 +6717,655 @@
         "support": {
             "source": "http://cgit.drupalcode.org/pathauto"
         }
+    },
+    {
+        "name": "drupal/admin_toolbar",
+        "version": "1.19.0",
+        "version_normalized": "1.19.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/admin_toolbar",
+            "reference": "8.x-1.19"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.19.zip",
+            "reference": "8.x-1.19",
+            "shasum": "87de41eab3c5cd49d4e1b5b764cb3b9d5ad683a0"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.19",
+                "datestamp": "1491487683"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Mohamed Anis Taktak",
+                "homepage": "https://www.drupal.org/u/matio89"
+            },
+            {
+                "name": "eme",
+                "homepage": "https://www.drupal.org/user/542492"
+            },
+            {
+                "name": "fethi.krout",
+                "homepage": "https://www.drupal.org/user/3206765"
+            },
+            {
+                "name": "matio89",
+                "homepage": "https://www.drupal.org/user/2320090"
+            },
+            {
+                "name": "romainj",
+                "homepage": "https://www.drupal.org/user/370706"
+            }
+        ],
+        "description": "Admin Toolbar improve the default Drupal Toolbar, it lets the hover of sub menus.",
+        "homepage": "http://drupal.org/project/admin_toolbar",
+        "support": {
+            "source": "http://cgit.drupalcode.org/admin_toolbar",
+            "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+        }
+    },
+    {
+        "name": "drupal/adminimal_admin_toolbar",
+        "version": "1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/adminimal_admin_toolbar",
+            "reference": "8.x-1.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/adminimal_admin_toolbar-8.x-1.4.zip",
+            "reference": null,
+            "shasum": "8f332858853d3c47406b44e891e62d8c7cb11361"
+        },
+        "require": {
+            "drupal/admin_toolbar": "*",
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.4",
+                "datestamp": "1493885887"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Ted Slesinski",
+                "homepage": "https://www.drupal.org/u/energee"
+            }
+        ],
+        "description": "Adminimal styling brought to admin toolbar.",
+        "homepage": "https://www.drupal.org/project/adminimal_admin_toolbar",
+        "support": {
+            "source": "http://cgit.drupalcode.org/adminimal_admin_toolbar",
+            "issues": "https://www.drupal.org/project/issues/adminimal_admin_toolbar"
+        }
+    },
+    {
+        "name": "psy/psysh",
+        "version": "v0.8.5",
+        "version_normalized": "0.8.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bobthecow/psysh.git",
+            "reference": "38a9d21406597a0440690eafbcb0222f528c8ac6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bobthecow/psysh/zipball/38a9d21406597a0440690eafbcb0222f528c8ac6",
+            "reference": "38a9d21406597a0440690eafbcb0222f528c8ac6",
+            "shasum": ""
+        },
+        "require": {
+            "dnoegel/php-xdg-base-dir": "0.1",
+            "jakub-onderka/php-console-highlighter": "0.3.*",
+            "nikic/php-parser": "~1.3|~2.0|~3.0",
+            "php": ">=5.3.9",
+            "symfony/console": "~2.3.10|^2.4.2|~3.0",
+            "symfony/var-dumper": "~2.7|~3.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "~1.11",
+            "hoa/console": "~3.16|~1.14",
+            "phpunit/phpunit": "~4.4|~5.0",
+            "symfony/finder": "~2.1|~3.0"
+        },
+        "suggest": {
+            "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
+            "ext-pdo-sqlite": "The doc command requires SQLite to work.",
+            "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
+            "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history.",
+            "hoa/console": "A pure PHP readline implementation. You'll want this if your PHP install doesn't already support readline or libedit."
+        },
+        "time": "2017-05-17T06:49:19+00:00",
+        "bin": [
+            "bin/psysh"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-develop": "0.9.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/Psy/functions.php"
+            ],
+            "psr-4": {
+                "Psy\\": "src/Psy/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Justin Hileman",
+                "email": "justin@justinhileman.info",
+                "homepage": "http://justinhileman.com"
+            }
+        ],
+        "description": "An interactive shell for modern PHP.",
+        "homepage": "http://psysh.org",
+        "keywords": [
+            "REPL",
+            "console",
+            "interactive",
+            "shell"
+        ]
+    },
+    {
+        "name": "drupal/console-en",
+        "version": "1.0.0-rc20",
+        "version_normalized": "1.0.0.0-RC20",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hechoendrupal/drupal-console-en.git",
+            "reference": "b6f563b8760c3b19aad22dd213a9cfba2f2c75d0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hechoendrupal/drupal-console-en/zipball/b6f563b8760c3b19aad22dd213a9cfba2f2c75d0",
+            "reference": "b6f563b8760c3b19aad22dd213a9cfba2f2c75d0",
+            "shasum": ""
+        },
+        "time": "2017-05-20T23:29:05+00:00",
+        "type": "drupal-console-language",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "David Flores",
+                "email": "dmousex@gmail.com",
+                "homepage": "http://dmouse.net"
+            },
+            {
+                "name": "Jesus Manuel Olivas",
+                "email": "jesus.olivas@gmail.com",
+                "homepage": "http://jmolivas.com"
+            },
+            {
+                "name": "Drupal Console Contributors",
+                "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
+            },
+            {
+                "name": "Eduardo Garcia",
+                "email": "enzo@enzolutions.com",
+                "homepage": "http://enzolutions.com/"
+            },
+            {
+                "name": "Omar Aguirre",
+                "email": "omersguchigu@gmail.com"
+            }
+        ],
+        "description": "Drupal Console English Language",
+        "homepage": "http://drupalconsole.com/",
+        "keywords": [
+            "console",
+            "development",
+            "drupal",
+            "symfony"
+        ]
+    },
+    {
+        "name": "drupal/console-core",
+        "version": "1.0.0-rc20",
+        "version_normalized": "1.0.0.0-RC20",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hechoendrupal/drupal-console-core.git",
+            "reference": "4b93841301a88db2ae210186e74e0e2529369c17"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hechoendrupal/drupal-console-core/zipball/4b93841301a88db2ae210186e74e0e2529369c17",
+            "reference": "4b93841301a88db2ae210186e74e0e2529369c17",
+            "shasum": ""
+        },
+        "require": {
+            "dflydev/dot-access-configuration": "1.0.1",
+            "drupal/console-en": "1.0.0-rc20",
+            "php": "^5.5.9 || ^7.0",
+            "stecman/symfony-console-completion": "~0.7",
+            "symfony/config": ">=2.7 <3.0",
+            "symfony/console": ">=2.7 <3.0",
+            "symfony/debug": ">=2.6 <3.0",
+            "symfony/dependency-injection": ">=2.7 <3.0",
+            "symfony/event-dispatcher": ">=2.7 <3.0",
+            "symfony/filesystem": ">=2.7 <3.0",
+            "symfony/finder": ">=2.7 <3.0",
+            "symfony/process": ">=2.7 <3.0",
+            "symfony/translation": ">=2.7 <3.0",
+            "symfony/yaml": ">=2.7 <3.0",
+            "twig/twig": "^1.23.1",
+            "webflo/drupal-finder": "^0.3.0"
+        },
+        "time": "2017-05-26T08:40:17+00:00",
+        "type": "project",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/functions.php"
+            ],
+            "psr-4": {
+                "Drupal\\Console\\Core\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "David Flores",
+                "email": "dmousex@gmail.com",
+                "homepage": "http://dmouse.net"
+            },
+            {
+                "name": "Jesus Manuel Olivas",
+                "email": "jesus.olivas@gmail.com",
+                "homepage": "http://jmolivas.com"
+            },
+            {
+                "name": "Drupal Console Contributors",
+                "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
+            },
+            {
+                "name": "Eduardo Garcia",
+                "email": "enzo@enzolutions.com",
+                "homepage": "http://enzolutions.com/"
+            },
+            {
+                "name": "Omar Aguirre",
+                "email": "omersguchigu@gmail.com"
+            }
+        ],
+        "description": "Drupal Console Core",
+        "homepage": "http://drupalconsole.com/",
+        "keywords": [
+            "console",
+            "development",
+            "drupal",
+            "symfony"
+        ]
+    },
+    {
+        "name": "drupal/console",
+        "version": "1.0.0-rc20",
+        "version_normalized": "1.0.0.0-RC20",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hechoendrupal/drupal-console.git",
+            "reference": "558ae5209232c7a5d236c5fab77f20703cb0b048"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hechoendrupal/drupal-console/zipball/558ae5209232c7a5d236c5fab77f20703cb0b048",
+            "reference": "558ae5209232c7a5d236c5fab77f20703cb0b048",
+            "shasum": ""
+        },
+        "require": {
+            "alchemy/zippy": "0.4.3",
+            "composer/installers": "~1.0",
+            "doctrine/annotations": "1.2.*",
+            "doctrine/collections": "~1.3",
+            "drupal/console-core": "1.0.0-rc20",
+            "drupal/console-extend-plugin": "~0",
+            "gabordemooij/redbean": "~4.3",
+            "guzzlehttp/guzzle": "~6.1",
+            "php": "^5.5.9 || ^7.0",
+            "psy/psysh": "0.6.* || ~0.8",
+            "symfony/css-selector": ">=2.7 <3.0",
+            "symfony/dom-crawler": ">=2.7 <3.3",
+            "symfony/expression-language": ">=2.7 <3.0",
+            "symfony/http-foundation": ">=2.7 <3.0"
+        },
+        "time": "2017-05-26T08:49:45+00:00",
+        "bin": [
+            "bin/drupal"
+        ],
+        "type": "project",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Drupal\\Console\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "David Flores",
+                "email": "dmousex@gmail.com",
+                "homepage": "http://dmouse.net"
+            },
+            {
+                "name": "Jesus Manuel Olivas",
+                "email": "jesus.olivas@gmail.com",
+                "homepage": "http://jmolivas.com"
+            },
+            {
+                "name": "Drupal Console Contributors",
+                "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
+            },
+            {
+                "name": "Eduardo Garcia",
+                "email": "enzo@enzolutions.com",
+                "homepage": "http://enzolutions.com/"
+            },
+            {
+                "name": "Omar Aguirre",
+                "email": "omersguchigu@gmail.com"
+            }
+        ],
+        "description": "The Drupal CLI. A tool to generate boilerplate code, interact with and debug Drupal.",
+        "homepage": "http://drupalconsole.com/",
+        "keywords": [
+            "console",
+            "development",
+            "drupal",
+            "symfony"
+        ]
+    },
+    {
+        "name": "phpdocumentor/reflection-docblock",
+        "version": "2.0.5",
+        "version_normalized": "2.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+            "reference": "e6a969a640b00d8daa3c66518b0405fb41ae0c4b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/e6a969a640b00d8daa3c66518b0405fb41ae0c4b",
+            "reference": "e6a969a640b00d8daa3c66518b0405fb41ae0c4b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "suggest": {
+            "dflydev/markdown": "~1.0",
+            "erusev/parsedown": "~1.0"
+        },
+        "time": "2016-01-25T08:17:30+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "phpDocumentor": [
+                    "src/"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mike van Riel",
+                "email": "mike.vanriel@naenius.com"
+            }
+        ]
+    },
+    {
+        "name": "behat/behat",
+        "version": "v3.3.1",
+        "version_normalized": "3.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Behat/Behat.git",
+            "reference": "44a58c1480d6144b2dc2c2bf02b9cef73c83840d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Behat/Behat/zipball/44a58c1480d6144b2dc2c2bf02b9cef73c83840d",
+            "reference": "44a58c1480d6144b2dc2c2bf02b9cef73c83840d",
+            "shasum": ""
+        },
+        "require": {
+            "behat/gherkin": "^4.4.4",
+            "behat/transliterator": "^1.2",
+            "container-interop/container-interop": "^1.1",
+            "ext-mbstring": "*",
+            "php": ">=5.3.3",
+            "symfony/class-loader": "~2.1||~3.0",
+            "symfony/config": "~2.3||~3.0",
+            "symfony/console": "~2.5||~3.0",
+            "symfony/dependency-injection": "~2.1||~3.0",
+            "symfony/event-dispatcher": "~2.1||~3.0",
+            "symfony/translation": "~2.3||~3.0",
+            "symfony/yaml": "~2.1||~3.0"
+        },
+        "require-dev": {
+            "herrera-io/box": "~1.6.1",
+            "phpunit/phpunit": "~4.5",
+            "symfony/process": "~2.5|~3.0"
+        },
+        "suggest": {
+            "behat/mink-extension": "for integration with Mink testing framework",
+            "behat/symfony2-extension": "for integration with Symfony2 web framework",
+            "behat/yii-extension": "for integration with Yii web framework"
+        },
+        "time": "2017-05-15T16:49:16+00:00",
+        "bin": [
+            "bin/behat"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Behat\\Behat": "src/",
+                "Behat\\Testwork": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Konstantin Kudryashov",
+                "email": "ever.zet@gmail.com",
+                "homepage": "http://everzet.com"
+            }
+        ],
+        "description": "Scenario-oriented BDD framework for PHP 5.3",
+        "homepage": "http://behat.org/",
+        "keywords": [
+            "Agile",
+            "BDD",
+            "ScenarioBDD",
+            "Scrum",
+            "StoryBDD",
+            "User story",
+            "business",
+            "development",
+            "documentation",
+            "examples",
+            "symfony",
+            "testing"
+        ]
+    },
+    {
+        "name": "jcalderonzumba/gastonjs",
+        "version": "v1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jcalderonzumba/gastonjs.git",
+            "reference": "575a9c18d8b87990c37252e8d9707b29f0a313f3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jcalderonzumba/gastonjs/zipball/575a9c18d8b87990c37252e8d9707b29f0a313f3",
+            "reference": "575a9c18d8b87990c37252e8d9707b29f0a313f3",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/guzzle": "~5.0|~6.0",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.6",
+            "silex/silex": "~1.2",
+            "symfony/phpunit-bridge": "~2.7",
+            "symfony/process": "~2.1"
+        },
+        "time": "2017-03-31T07:31:47+00:00",
+        "type": "phantomjs-api",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Zumba\\GastonJS\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Juan Francisco Calderón Zumba",
+                "email": "juanfcz@gmail.com",
+                "homepage": "http://github.com/jcalderonzumba"
+            }
+        ],
+        "description": "PhantomJS API based server for webpage automation",
+        "homepage": "https://github.com/jcalderonzumba/gastonjs",
+        "keywords": [
+            "api",
+            "automation",
+            "browser",
+            "headless",
+            "phantomjs"
+        ]
+    },
+    {
+        "name": "sebastian/diff",
+        "version": "1.4.3",
+        "version_normalized": "1.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/diff.git",
+            "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+            "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.3.3 || ^7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+        },
+        "time": "2017-05-22T07:24:03+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Kore Nordmann",
+                "email": "mail@kore-nordmann.de"
+            },
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sebastian@phpunit.de"
+            }
+        ],
+        "description": "Diff implementation",
+        "homepage": "https://github.com/sebastianbergmann/diff",
+        "keywords": [
+            "diff"
+        ]
     }
 ]
