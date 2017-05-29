@@ -1,4 +1,4 @@
-000Drupal 8.3.1, 2017-04-19
+111Drupal 8.3.1, 2017-04-19
 ------------------------
 - Fixed security issues. See SA-CORE-2017-002.
 
