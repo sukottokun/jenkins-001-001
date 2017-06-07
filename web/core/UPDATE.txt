@@ -1,4 +1,4 @@
-INTRODUCTION
+xxxINTRODUCTION
 ------------
 This document describes how to update your Drupal site between 8.x.x minor and
 patch versions; for example, from 8.1.2 to 8.1.3, or from 8.3.5 to 8.4.0.
