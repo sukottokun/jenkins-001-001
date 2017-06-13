@@ -14,8 +14,6 @@ echo "Behat test site: $TERMINUS_SITE.$TERMINUS_ENV"
 echo "::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 
-printenv
-
 # Exit immediately on errors, and echo commands as they are executed.
 set -ex
 
